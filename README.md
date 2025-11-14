@@ -1,1 +1,4 @@
-# ServiceNow_Demo
+# ServiceNow Alert-to-Incident Automation with ChatOps Integration
+Built an end-to-end automation in ServiceNow to convert monitoring alerts into enriched incidents and push real-time notifications to Slack. Implemented a Flow Designer pipeline that listens to new Monitoring Alert records, creates an Incident, enriches it with CMDB data, and maps alert severity to impact/urgency according to business rules. Integrated Slack via incoming webhooks to post incident details and deep links into a dedicated #incident-notifications channel for on-call engineers.
+
+Installed and configured a Windows-based ServiceNow MID Server, including service account setup, config.xml tuning, and validation so the platform can execute remote diagnostics and orchestration tasks against Windows infrastructure in future extensions of the project.
